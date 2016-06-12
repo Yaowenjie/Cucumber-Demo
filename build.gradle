@@ -11,6 +11,7 @@ buildscript {
 }
 
 apply plugin: 'java'
+apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 
 jar {
@@ -27,6 +28,7 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
-	testCompile('org.springframework.boot:spring-boot-starter-test') 
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile('org.seleniumhq.selenium:selenium-java:2.53.0')
 }
 
