@@ -13,7 +13,7 @@ import static org.openqa.selenium.support.PageFactory.initElements;
 public class CucumberApplicationTests {
 	FirefoxDriver driver = new FirefoxDriver();
 	BlogPage blogPage = initElements(driver, BlogPage.class);
-	String blogUrl = "http://localhost:4000";
+	String blogUrl = "http://yaowenjie.github.io";
 
 	// This is actually Selenium Test
 	@Test

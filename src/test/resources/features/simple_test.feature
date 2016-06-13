@@ -5,7 +5,7 @@ Feature: This is a simple test using Cucumber.
   Then I can click the search result and enter one article page
 
   Scenario:
-    Given I enter my blog address "http://localhost:4000" and go to Home page
+    Given I enter my blog address "http://yaowenjie.github.io" and go to Home page
     # Search Button Feature:
     When I click the search button
     And I enter "PowerShell" in the input field
