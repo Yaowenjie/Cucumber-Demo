@@ -13,6 +13,9 @@ public class BlogPage {
     @FindBy(xpath = "/html/body/div[1]/div/ul/li[1]/article/a")
     private WebElement searchResultFirst;
 
+    @FindBy(xpath = "//*[@id=\"main\"]/div/div/article/header/h1")
+    private WebElement articleTitle;
+
     public void clickSearchButton() {
         searchButton.click();
     }
@@ -23,5 +26,9 @@ public class BlogPage {
 
     public void clickFirstResultOfSearch() {
         searchResultFirst.click();
+    }
+
+    public String getArticleTitle() {
+        return articleTitle.getText();
     }
 }

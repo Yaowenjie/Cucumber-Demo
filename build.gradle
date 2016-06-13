@@ -30,5 +30,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	compile('org.seleniumhq.selenium:selenium-java:2.53.0')
+	compile('info.cukes:cucumber-java8:1.2.4')
+	compile('info.cukes:cucumber-junit:1.2.4')
 }
 
