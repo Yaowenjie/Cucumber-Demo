@@ -34,3 +34,6 @@ dependencies {
 	compile('info.cukes:cucumber-junit:1.2.4')
 }
 
+test {
+	exclude '**/CucumberApplicationTests*'
+}
